@@ -1,4 +1,8 @@
-// trapping rain water leetcode problem, solution version 3
+// trapping rain water (source: leetcode and neetcode + from personal practices and explorations)
+// vector<int>& height includes elements representing 2d polls of pillars
+// waters can only get trapped between rectangular pillars
+// pillars width are 1 and their height are the int values in height
+// Beauty of this algorith: defying physics, and thinking of water as blocks of squares!
 
 using namespace std;
 

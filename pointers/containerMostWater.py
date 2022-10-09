@@ -1,4 +1,5 @@
 # container with most water problem solution version 5
+# (source: leetcode and neetcode + from personal practices and explorations)
 
 class Solution:
     def maxArea(self, height: List[int]) -> int:
