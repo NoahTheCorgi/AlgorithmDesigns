@@ -8,6 +8,7 @@
 
 class Solution:
     def hasCycle(self, head: Optional[ListNode]) -> bool:
+        # attempt 2: (source: neetcode)
         # if there is a cycle will find since gcd(1,2) = 1
         # if there is no cycle, guaranteed to terminate 
         slow, fast = head, head
@@ -18,6 +19,7 @@ class Solution:
                 return True
         return False
         
+        # attempt 1:
         # Below is an implementation that is slower
         # helper = set()
         # pointer = head
