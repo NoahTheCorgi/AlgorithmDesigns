@@ -1,3 +1,4 @@
+// algorithm that finds single digit amongst an array of two copies of digits
 /**
  * @param {number[]} nums
  * @return {number}
